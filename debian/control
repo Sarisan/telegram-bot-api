@@ -1,0 +1,15 @@
+Source: telegram-bot-api
+Section: httpd
+Maintainer: Maria Lisina <sekoohaka.sarisan@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+               cmake,
+               gperf,
+               zlib1g-dev,
+               libssl-dev
+Standards-Version: 4.7.4
+
+Package: telegram-bot-api
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Telegram Bot API server
+ The Telegram Bot API provides an HTTP API for creating Telegram Bots.
